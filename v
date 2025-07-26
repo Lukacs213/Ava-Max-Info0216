@@ -75,7 +75,9 @@
       margin-top: 8px;
     }
   </style>
+<a href="index.html" class="home-btn">🏠 Home</a>
 </head>
+
 <body>
   <header>
     <h1> Ava Max – Diszkográfia</h1>
