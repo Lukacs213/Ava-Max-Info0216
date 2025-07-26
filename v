@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ava Max – Diszkográfia</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+
+    .container {
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .album {
+      background-color: #222;
+      border-radius: 12px;
+      overflow: hidden;
+      max-width: 280px;
+      box-shadow: 0 0 12px #ff005577;
+      transition: transform 0.3s ease;
+    }
+
+    .album:hover {
+      transform: scale(1.05);
+    }
+
+    .album img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .album-info {
+      padding: 15px;
+    }
+
+    .album-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .release-date {
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .type-label {
+      background-color: #ff0055;
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 12px;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1> Ava Max – Diszkográfia</h1>
+  </header>
+
+  <div class="container">
+
+    <!-- ALBUM 1 -->
+    <div class="album">
+      <img src="https://static.wikia.nocookie.net/ava-max/images/3/35/075679797033.jpg/revision/latest/scale-to-width-down/250?cb=20240818220238" alt="Heaven & Hell">
+      <div class="album-info">
+        <div class="album-title">Heaven & Hell</div>
+        <div class="release-date">2020. szeptember 18.</div>
+        <div class="type-label">Album</div>
+      </div>
+    </div>
+
+    <!-- ALBUM 2 -->
+    <div class="album">
+      <img src="https://i.ebayimg.com/images/g/VJYAAOSwvTJmZHHk/s-l1200.jpg" alt="Diamonds & Dancefloors">
+      <div class="album-info">
+        <div class="album-title">Diamonds & Dancefloors</div>
+        <div class="release-date">2023. január 27.</div>
+        <div class="type-label">Album</div>
+      </div>
+    </div>
+
+    <!-- DALOK / SINGLEK -->
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/9/96/Ava_Max_%E2%80%93_Sweet_but_Psycho.png" alt="Sweet but Psycho"><div class="album-info"><div class="album-title">Sweet but Psycho</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://cdn-images.dzcdn.net/images/cover/ae2f71083d31e9e3019d0275e2645696/0x1900-000000-80-0-0.jpg" alt="So Am I"><div class="album-info"><div class="album-title">So Am I</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/7/77/Ava_Max_Torn_2.png" alt="Torn"><div class="album-info"><div class="album-title">Torn</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/5/51/Pablo_Albor%C3%A1n_and_Ava_Max_-_Tab%C3%BA.png" alt="Tabú"><div class="album-info"><div class="album-title">Tabú</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/8/8f/Ava_Max_Salt_New_Cover.jpg" alt="Salt"><div class="album-info"><div class="album-title">Salt</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/2/22/Alan_Walker_and_Ava_Max_-_Alone%2C_Pt._II.png" alt="Alone, Pt. II"><div class="album-info"><div class="album-title">Alone, Pt. II</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/d/d8/Ava_Max_-_Kings_%26_Queens.png" alt="Kings & Queens"><div class="album-info"><div class="album-title">Kings & Queens</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/a/a9/Ava_Max_-_Who%27s_Laughing_Now.png" alt="Who's Laughing Now"><div class="album-info"><div class="album-title">Who's Laughing Now</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/8/8c/Ava_Max_-_OMG_What%27s_Happening.png" alt="OMG What's Happening"><div class="album-info"><div class="album-title">OMG What's Happening</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/2/22/Ava_Max_-_Christmas_Without_You.pngT" alt="Christmas Without You"><div class="album-info"><div class="album-title">Christmas Without You</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Ava_Max_-_My_Head_%26_My_Heart_%28Spotify_cover%29.png/250px-Ava_Max_-_My_Head_%26_My_Heart_%28Spotify_cover%29.png" alt="My Head & My Heart"><div class="album-info"><div class="album-title">My Head & My Heart</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/0/04/Ava_Max_-_EveryTime_I_Cry.png" alt="EveryTime I Cry"><div class="album-info"><div class="album-title">EveryTime I Cry</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/6/63/Ti%C3%ABsto_-_The_Motto.jpg" alt="The Motto"><div class="album-info"><div class="album-title">The Motto</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://pics.filmaffinity.com/ava_max_maybe_you_re_the_problem-687924814-mmed.jpg" alt="Maybe You're the Problem"><div class="album-info"><div class="album-title">Maybe You're the Problem</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Ava_Max_-_Million_Dollar_Baby.png/250px-Ava_Max_-_Million_Dollar_Baby.png" alt="Million Dollar Baby"><div class="album-info"><div class="album-title">Million Dollar Baby</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/9/94/Ava_Max_-_Weapons.png" alt="Weapons"><div class="album-info"><div class="album-title">Weapons</div><div class="type-label">Kislemez</div></div></div>
+     <div class="album"><img src="https://i0.wp.com/themusicalhype.com/wp-content/uploads/2022/12/ava-max-diamonds-dancefloors.jpg?ssl=1" alt="Dancing's Done"><div class="album-info"><div class="album-title"Dancing's Done</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://cdn-images.dzcdn.net/images/cover/5ba76d64552b8118b43e3ad9a4c0df32/0x1900-000000-80-0-0.jpg" alt="One of Us"><div class="album-info"><div class="album-title">One of Us</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/f/fd/Ava_Max_-_Ghost_%28Merk_%26_Kremont_Remix%29.png" alt="Ghost"><div class="album-info"><div class="album-title">Ghost</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/4/40/Alok_and_Ava_Max_-_Car_Keys_%28Ayla%29.png" alt="Car Keys"><div class="album-info"><div class="album-title">Car Keys</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/0/0a/Ava_Max_-_Choose_Your_Fighter.png" alt="Choose Your Fighter"><div class="album-info"><div class="album-title">Choose Your Fighter</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/0/02/Kygo_%26_Ava_Max_-_Whatever.png" alt="Whatever"><div class="album-info"><div class="album-title">Whatever</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Ava_Max_-_My_Oh_My_%28cover%29.png" alt="My Oh My"><div class="album-info"><div class="album-title">My Oh My</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://cdn-images.dzcdn.net/images/cover/612c9ea59034e296d1178a7e38f04349/1900x1900-000000-80-0-0.jpgT" alt="Brought the Heat Back"><div class="album-info"><div class="album-title">Brought the Heat Back</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://i.scdn.co/image/ab67616d0000b27327fa87370a36f670c3337adb" alt="Spot a Fake"><div class="album-info"><div class="album-title">Spot a Fake</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://i1.sndcdn.com/artworks-FIoisi9p7cAZSXuy-16HHpw-t500x500.jpg" alt="Forever Yung"><div class="album-info"><div class="album-title">Forever Yung</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/3/3e/Ava_Max_1_Wish_Single_Cover.png" alt="1 Wish"><div class="album-info"><div class="album-title">1 Wish</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://images.genius.com/5f9dbd7a66fe523688fcbfdd992ea882.252x252x1.pngT" alt="Lost Your Faith"><div class="album-info"><div class="album-title">Lost Your Faith</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/b/bb/Lovin_Myself.png" alt="Lovin Myself"><div class="album-info"><div class="album-title">Lovin Myself</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://i1.sndcdn.com/artworks-WquAvUbAuS4u-0-t500x500.jpg" alt="Wet, Hot American Dream"><div class="album-info"><div class="album-title">Wet, Hot American Dream</div><div class="type-label">Kislemez</div></div></div>
+    <div class="album"><img src="https://static.wikia.nocookie.net/ava-max/images/4/42/JoynerADHD2.jpeg/revision/latest/scale-to-width/360?cb=20250616032451" alt="Tear Me Down"><div class="album-info"><div class="album-title">Tear Me Down</div><div class="type-label">Kislemez</div></div></div>
+
+  </div>
+
+  </div>
+</body>
+</html>
