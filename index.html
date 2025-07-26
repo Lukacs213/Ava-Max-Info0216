@@ -63,6 +63,60 @@
     ">YouTube Shorts 🎬</a>
   </div>
 
+<!-- Látogatásszámláló ikon (jobb felső sarokban) -->
+<div class="visit-counter" style="
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 8px 14px;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  z-index: 9999;
+">
+  <img src="https://cdn-icons-png.flaticon.com/512/709/709612.png" alt="visits" style="width:18px; height:18px;">
+  <span id="visit-count">0</span>
+</div>
+
+<!-- Don't Click Play kép és gomb -->
+<div style="display: flex; justify-content: center; align-items: center; padding: 40px;">
+  <a href="https://avamax.lnk.to/DontClickPlay" target="_blank" rel="noopener noreferrer" style="text-decoration: none; position: relative; display: inline-block;">
+    <img src="https://mgrecords.hu/sites/default/files/termekek/2025-06/06_26_ava_max_dont_click_play_0.jpg" alt="Don't Click Play" style="width: 100%; max-width: 500px; border-radius: 12px;">
+    <div style="
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 12px 24px;
+      border-radius: 30px;
+      font-weight: 600;
+      color: #0f0f0f;
+      font-size: 1.5em;
+      cursor: pointer;
+      user-select: none;
+      text-align: center;
+    ">
+      Don't Click Play (pre-save)
+    </div>
+  </a>
+</div>
+
+<script>
+  // Látogatásszám kezelése
+  let count = localStorage.getItem('visitCount') || 0;
+  count++;
+  localStorage.setItem('visitCount', count);
+  document.getElementById('visit-count').textContent = count;
+</script>
+
+  
   <!-- Welcome -->
   <div style="padding: 30px;">
     <h1 style="font-size: 2.5em;">Welcome to Ava Max Info!</h1>
