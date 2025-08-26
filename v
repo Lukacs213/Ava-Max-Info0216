@@ -105,6 +105,19 @@
       </div>
     </div>
 
+            <!-- ALBUM 3 -->
+  <div class="album" style="flex: 1; min-width: 250px; max-width: 300px; text-align: center;">
+    <img src="https://m.media-amazon.com/images/I/61aKTf4w2FL._UF1000,1000_QL80_.jpg" 
+         alt="Don't Click Play" style="width: 100%; border-radius: 12px;">
+    <div class="album-info" style="margin-top: 10px;">
+      <div class="album-title" style="font-weight: bold; font-size: 1.2em;">Don't Click Play</div>
+      <div class="release-date" style="font-size: 0.95em; color: #ccc;">2025. augusztus 22.</div>
+      <div class="type-label" style="font-size: 0.9em; background: #444; color: #fff; display: inline-block; padding: 4px 8px; border-radius: 8px; margin-top: 6px;">
+        Album
+      </div>
+    </div>
+  </div>
+
     <!-- DALOK / SINGLEK -->
     <div class="album"><img src="https://upload.wikimedia.org/wikipedia/en/9/96/Ava_Max_%E2%80%93_Sweet_but_Psycho.png" alt="Sweet but Psycho"><div class="album-info"><div class="album-title">Sweet but Psycho</div><div class="type-label">Kislemez</div></div></div>
     <div class="album"><img src="https://cdn-images.dzcdn.net/images/cover/ae2f71083d31e9e3019d0275e2645696/0x1900-000000-80-0-0.jpg" alt="So Am I"><div class="album-info"><div class="album-title">So Am I</div><div class="type-label">Kislemez</div></div></div>
