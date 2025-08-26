@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <html lang="hu">
 <head>
+
+.album {
+  width: 250px;
+  height: 380px;           /* minden kártya ugyanolyan magas */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.album img {
+  width: 100%;
+  height: 250px;           /* fix képmagasság */
+  object-fit: cover;       /* képet kitölti, de nem torzítja */
+}
+
+.album-info {
+  padding: 10px;
+  text-align: center;
+}
+
+.album-title {
+  min-height: 40px;        /* 2 sor hely a címnek */
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+  
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Ava Max – Diszkográfia</title>
@@ -499,6 +533,7 @@
   </div>
 </body>
 </html>
+
 
 
 
